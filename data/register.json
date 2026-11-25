@@ -1,0 +1,55 @@
+{
+  "sites": {
+    "hill-a": {
+      "eligible": [
+        "src-7"
+      ],
+      "quantity": 75
+    },
+    "hill-b": {
+      "eligible": [
+        "src-7",
+        "src-8"
+      ],
+      "quantity": 90
+    }
+  },
+  "stocks": {
+    "batch-A": {
+      "source": "src-7",
+      "available": 60
+    },
+    "batch-B": {
+      "source": "src-8",
+      "available": 45
+    }
+  },
+  "orders": [
+    {
+      "id": "o-1",
+      "site": "hill-a",
+      "original": "batch-A"
+    },
+    {
+      "id": "o-2",
+      "site": "hill-b",
+      "original": "batch-A"
+    }
+  ],
+  "agreement": {
+    "warranty_days": 120,
+    "start": "actual_planting"
+  },
+  "bids": [
+    {
+      "order": "o-1",
+      "batch": "batch-B",
+      "quantity": 35
+    },
+    {
+      "order": "o-2",
+      "batch": "batch-B",
+      "quantity": 40
+    }
+  ]
+}

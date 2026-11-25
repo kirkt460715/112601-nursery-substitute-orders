@@ -1,0 +1,45 @@
+[
+  {
+    "sequence": 1,
+    "received_at": 30,
+    "source": "nursery",
+    "facts": {
+      "load": "truck-6",
+      "order": "o-2",
+      "batch": "batch-B",
+      "quantity": 40
+    }
+  },
+  {
+    "sequence": 2,
+    "received_at": 41,
+    "source": "field",
+    "facts": {
+      "load": "truck-6",
+      "seen": 38,
+      "origin_proof": null
+    }
+  },
+  {
+    "sequence": 3,
+    "received_at": 44,
+    "source": "field",
+    "facts": {
+      "planting": "row-c",
+      "site": "hill-b",
+      "batch": "batch-A",
+      "count": 20
+    }
+  },
+  {
+    "sequence": 4,
+    "received_at": 60,
+    "source": "records",
+    "facts": {
+      "load": "truck-6",
+      "batch": "batch-B",
+      "source": "src-8",
+      "proof": "proof-B"
+    }
+  }
+]

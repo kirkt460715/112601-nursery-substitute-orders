@@ -1,0 +1,22 @@
+[
+  {
+    "action": "read-load",
+    "desk": "dispatch-desk",
+    "fact": {
+      "load": "truck-6",
+      "seen": 38,
+      "accepted": false
+    },
+    "unavailable_first": true
+  },
+  {
+    "action": "read-origin",
+    "desk": "supplier-desk",
+    "fact": {
+      "batch": "batch-B",
+      "origin": "src-8",
+      "citation": "proof-B"
+    },
+    "unavailable_first": false
+  }
+]
